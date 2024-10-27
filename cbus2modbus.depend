@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1702536112 source:/home/benoit/SDK/beb/common_src/CThread.cpp
+	<vcl.h>
+	<windows.h>
+	"string.h"
+	<unistd.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<mach/thread_policy.h>
+	"CThread.h"
+	"SystemSleep.h"
+	<stdio.h>
+	<string.h>
+
+1702478098 /home/benoit/SDK/beb/common_src/CThread.h
+	<pthread.h>
+
+1720334472 /home/benoit/SDK/beb/common_src/SystemSleep.h
+
+1720334472 source:/home/benoit/SDK/beb/common_src/SystemSleep.cpp
+	"SystemSleep.h"
+	<windows.h>
+	<unistd.h>
+	<time.h>
+	<unistd.h>
+	<time.h>
+
+1729518655 source:/home/benoit/cbus2modbus/src/cbus2modbus_main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"modbus.h"
+	"CThread.h"
+	<signal.h>
+	<string.h>
+	"SystemSleep.h"
+	"cbus_io.h"
+	<unistd.h>
+	<arpa/inet.h>
+	<errno.h>
+
+1685731042 /home/benoit/cbus2modbus/src/modbus.h
+	<sys/param.h>
+	<stdint.h>
+	<sys/time.h>
+	"stdint.h"
+	<time.h>
+	"modbus-version.h"
+	"modbus-tcp.h"
+	"modbus-rtu.h"
+
+1626452758 /home/benoit/cbus2modbus/src/modbus-version.h
+
+1626452758 /home/benoit/cbus2modbus/src/modbus-tcp.h
+	"modbus.h"
+	<winsock2.h>
+
+1626452758 /home/benoit/cbus2modbus/src/modbus-rtu.h
+	"modbus.h"
+
+1729007149 source:/home/benoit/cbus2modbus/src/SocketCBUS.c
+	"SocketCBUS.h"
+	<linux/can.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+	<string.h>
+	<unistd.h>
+
+1651862918 /home/benoit/cbus2modbus/src/SocketCBUS.h
+
+1729518562 /home/benoit/cbus2modbus/src/cbus_io.h
+	<stdint.h>
+
+1729518882 source:/home/benoit/cbus2modbus/src/cbus_io.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	<unistd.h>
+	<stdint.h>
+	"CBUS_OPC.h"
+	"cbus_io.h"
+	"SocketCBUS.h"
+
+1650260678 /home/benoit/cbus2modbus/src/CBUS_OPC.h
+
